@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: Montserrat;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+body {
+    background: #121517;
+}
+
+.title_span {
+    font-size: 80px;
+    line-height: 109.00000000000001%;
+    color: #237249;
+
+
+}
+
+/* HEADER_QISMI */
+
+.nav_box {
+    display: flex;
+    gap: 90px;
+    padding-top: 40px;
+}
+
+
+.nav_lists {
+    display: flex;
+    gap: 90px;
+    align-items: center;
+}
+
+.nav_link {
+    font-style: Regular;
+    font-size: 19.17px;
+    line-height: 130%;
+    color: #D9D9D9;
+}
+
+
+/* INTRO_QISMI */
+
+
+
+.intro_box {
+    margin-top: 90px;
+    display: flex;
+    gap: 150px;
+}
+
+.intro_left {
+    display: flex;
+    flex-direction: column;
+    gap: 54px;
+}
+
+.intro_title {
+    font-size: 80px;
+    line-height: 109.00000000000001%;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.intro_text {
+    font-size: 20px;
+    line-height: 163%;
+    color: rgba(217, 217, 217, 1);
+}
+
+.intro_btn {
+    display: flex;
+    gap: 16.36px;
+}
+
+.btn_intro_first {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 146%;
+    color: rgba(255, 255, 255, 1);
+    background: linear-gradient(265.23deg, #237249 6.79%, #35C66B 97.2%);
+    border: none;
+    border-radius: 82px;
+    padding: 20px 78px;
+}
+
+.btn_intro_second {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 146%;
+    color: rgba(217, 217, 217, 1);
+    padding: 20px 50px;
+    border-radius: 82px;
+    background-color: rgba(18, 21, 23, 1);
+    border: 0.05px solid white;
+}
+
+.intro_numer {
+    display: flex;
+    gap: 46px;
+}
+
+.intro_span {
+    font-weight: 400;
+    font-size: 62px;
+    line-height: 109.00000000000001%;
+    color: #35C66B;
+
+}
+
+.num_intro {
+    font-weight: 400;
+    font-size: 62px;
+    line-height: 109.00000000000001%;
+    color: rgba(255, 255, 255, 1);
+}
+
+
+.intro_img {
+    width: 400px;
+    height: 500px;
+    opacity: 1;
+}
