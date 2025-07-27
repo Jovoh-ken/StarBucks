@@ -166,3 +166,33 @@ body {
     color: rgba(255, 255, 255, 1);
     display: inline-block;
 }
+
+/* CARD_QISMI */
+
+
+.card_first {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+
+}
+
+.card_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(264.52deg, #FFFFFF 4.95%, #E5E5E5 64.19%, #FBFBFB 88.37%);
+    border-radius: 46px;
+    width: 900px;
+    height: 300px;
+    gap: 130px;
+    text-align: center;
+}
+
+.card_ul{
+   
+}
+
+
+
