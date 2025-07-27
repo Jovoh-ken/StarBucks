@@ -24,7 +24,7 @@ body {
     font-size: 80px;
     line-height: 109.00000000000001%;
     color: #237249;
-
+    text-shadow: 0px 0px 20px rgba(0, 255, 0, 0.4);
 
 }
 
@@ -71,12 +71,12 @@ body {
     font-size: 80px;
     line-height: 109.00000000000001%;
     color: rgba(255, 255, 255, 1);
-
+    text-shadow: 0px 0px 20px rgba(255, 255, 255, 0.4);
 }
 
 .intro_text {
-    font-size: 20px;
-    line-height: 163%;
+    font-size: 19.2px;
+    line-height: 160%;
     color: rgba(217, 217, 217, 1);
 }
 
@@ -132,4 +132,37 @@ body {
     width: 400px;
     height: 500px;
     opacity: 1;
+}
+
+
+
+.intro_right {
+    position: relative;
+    display: inline-block;
+}
+
+.discount {
+    position: absolute;
+    bottom: 430px;
+    left: 200px;
+    width: 200px;
+    transform: rotate(-30deg);
+    /* Butun container buriladi */
+}
+
+.discount_img {
+    width: 100%;
+    display: block;
+}
+
+.discount_text {
+    position: absolute;
+    top: 42%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+    font-weight: 500;
+    font-size: 55.02px;
+    line-height: 146%;
+    color: rgba(255, 255, 255, 1);
+    display: inline-block;
 }
