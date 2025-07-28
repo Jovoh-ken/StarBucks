@@ -297,7 +297,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 50px;
-  justify-content: center;
+    justify-content: center;
 }
 
 
@@ -321,4 +321,62 @@ body {
     font-size: 16px;
     line-height: 163%;
     color: rgba(217, 217, 217, 1);
+}
+
+
+.secti_vid {
+    position: relative;
+    display: inline-block;
+    width: max-content;
+}
+
+.secti_img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.secti_img_btn {
+    background-color: transparent;
+    background-image: linear-gradient(265.23deg, #237249 6.79%, #35C66B 97.2%);
+    padding: 20px 20px;
+    font-weight: 639;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 82.83px;
+    width: 270px;
+
+    position: absolute;
+    bottom: 110px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+
+    /* Silliq hoverlar uchun */
+    transition: all 0.4s ease;
+}
+
+/* ICON ichidagi IMG */
+.secti_img_btn .btn {
+    width: 24px;
+    height: 24px;
+    filter: brightness(0) invert(1); /* boshlanishda oq */
+    transition: filter 0.4s ease;
+}
+
+/* HOVER HOLATI */
+.secti_img_btn:hover {
+    background-image: none; /* Gradientni olib tashlaydi */
+    background-color: white;
+    color: #000000; /* Yashil matn */
+}
+
+.secti_img_btn:hover .btn {
+    /* Ikonka ham yashil bo‘ladi */
+    filter: brightness(0) saturate(100%) sepia(1) hue-rotate(85deg) saturate(600%);
 }
