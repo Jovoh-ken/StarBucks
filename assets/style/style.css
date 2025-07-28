@@ -280,34 +280,24 @@ body {
 }
 
 
-/* SECRION_QISMI */
+/* SECTION_QISMI */
 
 .starbucks_box {
     margin-top: 100px;
     display: flex;
-    justify-content: space-between;
+    gap: 100px;
 
 }
 
-
-.starbucks_img {
-    background-image: url('../img/starbucks_left_bacground_img.png');
-    background-size: cover;
-    /* Rasmni butun orqa fonda to'liq qoplash */
-    background-position: center;
-    /* Rasm markazda joylashadi */
-    background-repeat: no-repeat;
-    /* Rasm takrorlanmasligi */
-    background-attachment: fixed;/
-}
-
+/* LEFT_QISMI */
 
 /* RIGHT_QISMI */
 
 .starbucks_right {
     display: flex;
     flex-direction: column;
-    gap: 60px;
+    gap: 50px;
+  justify-content: center;
 }
 
 
@@ -328,7 +318,7 @@ body {
 .section_text {
     font-weight: 400;
     font-style: Regular;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 163%;
     color: rgba(217, 217, 217, 1);
 }
