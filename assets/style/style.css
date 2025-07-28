@@ -184,15 +184,71 @@ body {
     justify-content: center;
     background: linear-gradient(264.52deg, #FFFFFF 4.95%, #E5E5E5 64.19%, #FBFBFB 88.37%);
     border-radius: 46px;
-    width: 900px;
-    height: 300px;
-    gap: 130px;
+    width: 1100px;
+    height: auto;
+    gap: 100px;
     text-align: center;
 }
 
-.card_ul{
-   
+.card_text_eror {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 163%;
+    color: rgba(18, 21, 23, 1);
+    margin-top: 50px;
+}
+
+.card_text {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 163%;
+    color: rgba(18, 21, 23, 1);
+}
+
+.card_ul {
+    padding: 20px;
+
+}
+
+.ul_eror {
+    margin-top: 26px;
+}
+
+.card_text_second {
+    font-weight: 400;
+    font-size: 20.13px;
+    line-height: 163%;
+    letter-spacing: -2%;
+    color: rgba(18, 21, 23, 0.9);
 }
 
 
+.card_first {
+    position: relative;
+    display: inline-block;
+}
 
+.card_start {
+    position: absolute;
+    bottom: 250px;
+    right: 989px;
+    display: block;
+    width: 200px;
+    height: 200px;
+    border-radius: 48.9px;
+    opacity: 1;
+}
+
+.text_card_start {
+    position: absolute;
+    top: 1%;
+    right: 1042px;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 86%;
+    text-shadow: 1px 1px 2px rgb(255, 255, 255);
+}
