@@ -188,23 +188,17 @@ body {
 
 /* CARD_QISMI */
 
-
-.card_first {
+.card_big_box{
     display: flex;
-    align-items: center;
     justify-content: center;
-    margin-top: 100px;
-
+    align-items: center;
+       margin-top: 100px;
 }
 
 .card_box {
     display: flex;
-    align-items: center;
-    justify-content: center;
     background: linear-gradient(264.52deg, #FFFFFF 4.95%, #E5E5E5 64.19%, #FBFBFB 88.37%);
     border-radius: 46px;
-    width: auto;
-    height: auto;
     gap: 100px;
     text-align: center;
     padding: 0 50px;
@@ -215,7 +209,6 @@ body {
     font-size: 32px;
     line-height: 163%;
     color: rgba(18, 21, 23, 1);
-
 }
 
 .card_text {
@@ -238,11 +231,19 @@ body {
 .ul:hover,
 .ul_eror:hover {
     transform: scale(1.1);
-    cursor: pointer;
 }
 
 .ul_eror {
-    margin-top: 26px;
+    padding-top: 40px;
+    padding-bottom:20px;
+}
+
+.card_text_err{
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 163%;
+    color: rgba(18, 21, 23, 1);
+    padding-top: 25px;
 }
 
 .card_text_second {
@@ -257,23 +258,30 @@ body {
 .card_first {
     position: relative;
     display: inline-block;
-    margin-left: 40px;
+
 }
 
 .card_start {
     position: absolute;
     bottom: 250px;
-    right: 989px;
+    right: 930px;
     display: block;
-    width: 200px;
-    height: 200px;
-    border-radius: 48.9px;
+    width: 180px;
+    height: 180px;
+    cursor: pointer;
     opacity: 1;
+      transition: all 0.5s ease;
 }
+
+.card_start:hover {
+    transform: scale(1.05);
+}
+
 
 .text_card_start {
     position: absolute;
-    right: 1042px;
+    right: 970px;
+    bottom: 326px;
     color: rgb(255, 255, 255);
     display: inline-block;
     text-align: center;
@@ -281,8 +289,9 @@ body {
     font-weight: 500;
     font-size: 32px;
     line-height: 86%;
-    text-shadow: 1px 1px 2px rgb(255, 255, 255);
+    cursor: pointer;
 }
+
 
 
 /* SECTION_QISMI */
@@ -291,7 +300,7 @@ body {
     margin-top: 100px;
     display: flex;
     justify-content: space-between;
-    1
+    
 }
 
 
@@ -376,5 +385,5 @@ body {
 }
 
 .secti_img_btn:hover .btn {
-    filter: brightness(0) saturate(100%) sepia(1) hue-rotate(85deg) saturate(600%);
+    filter: brightness(0) saturate(100%) sepia(2) hue-rotate(80deg) saturate(60%);
 }
