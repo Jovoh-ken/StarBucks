@@ -24,7 +24,7 @@ body {
     font-size: 80px;
     line-height: 109.00000000000001%;
     color: #237249;
-    text-shadow: 0px 0px 20px rgba(0, 255, 0, 0.4);
+    text-shadow: 0px 0px 10px rgba(0, 255, 0, 0.4);
 
 }
 
@@ -71,8 +71,7 @@ body {
     font-size: 80px;
     line-height: 109.00000000000001%;
     color: rgba(255, 255, 255, 1);
-    text-shadow: 0px 0px 20px rgba(255, 255, 255, 0.4);
-}
+  }
 
 .intro_text {
     font-size: 19.2px;
@@ -83,6 +82,7 @@ body {
 .intro_btn {
     display: flex;
     gap: 16.36px;
+
 }
 
 .btn_intro_first {
@@ -94,6 +94,16 @@ body {
     border: none;
     border-radius: 82px;
     padding: 20px 78px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(56, 255, 89, 0.4);
+    outline: none;
+}
+
+.btn_intro_first:hover {
+    background: linear-gradient(135deg, #237249 #5dbc8b);
+    box-shadow: 0 6px 20px #237249;
+    transform: scale(1.05);
 }
 
 .btn_intro_second {
@@ -105,6 +115,12 @@ body {
     border-radius: 82px;
     background-color: rgba(18, 21, 23, 1);
     border: 0.05px solid white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn_intro_second:hover {
+    transform: scale(1.05);
 }
 
 .intro_numer {
@@ -207,7 +223,18 @@ body {
 
 .card_ul {
     padding: 20px;
+}
 
+
+.ul,
+.ul_eror {
+    transition: transform 0.3s ease;
+}
+
+.ul:hover,
+.ul_eror:hover {
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 .ul_eror {
