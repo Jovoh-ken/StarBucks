@@ -167,7 +167,7 @@ body {
     width: 200px;
     transform: rotate(-30deg);
     /* Butun container buriladi */
-          transition: all 0.5s ease;
+    transition: all 0.5s ease;
 }
 
 .discount:hover {
@@ -195,11 +195,11 @@ body {
 
 /* CARD_QISMI */
 
-.card_big_box{
+.card_big_box {
     display: flex;
     justify-content: center;
     align-items: center;
-       margin-top: 100px;
+    margin-top: 100px;
 }
 
 .card_box {
@@ -242,10 +242,10 @@ body {
 
 .ul_eror {
     padding-top: 40px;
-    padding-bottom:20px;
+    padding-bottom: 20px;
 }
 
-.card_text_err{
+.card_text_err {
     font-weight: 500;
     font-size: 32px;
     line-height: 163%;
@@ -277,7 +277,7 @@ body {
     height: 180px;
     cursor: pointer;
     opacity: 1;
-      transition: all 0.5s ease;
+    transition: all 0.5s ease;
 }
 
 .card_start:hover {
@@ -307,7 +307,6 @@ body {
     margin-top: 100px;
     display: flex;
     justify-content: space-between;
-    
 }
 
 
@@ -318,7 +317,6 @@ body {
     flex-direction: column;
     gap: 50px;
     justify-content: center;
-    padding: 50px;
 }
 
 
@@ -395,4 +393,135 @@ body {
 
 .secti_img_btn:hover .btn {
     filter: brightness(0) saturate(100%) sepia(2) hue-rotate(80deg) saturate(60%);
+}
+
+
+
+/* NEW_QISMI */
+
+.box_bttn{
+    display: flex;
+   gap: 54px;
+   justify-content: center;
+}
+
+.coff_one {
+    top: 50%;
+    left: 50%;
+    width: 190px;
+    height: auto;
+    transition: all 0.5s ease;
+    filter: drop-shadow(4px 4px 6px #ffffff);
+}
+
+.coff_one:hover {
+    transform: scale(1.2);
+}
+
+.new {
+    margin-top: 100px;
+}
+
+.box_top {
+    display: flex;
+    gap: 70px;
+}
+
+.top_title,
+.top_span {
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 109.00000000000001%;
+    color: rgba(255, 255, 255, 1);
+}
+
+.top_span {
+    color: rgba(53, 198, 107, 1);
+}
+
+.top_text {
+    padding-top: 20px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 163%;
+    color: rgba(217, 217, 217, 1);
+}
+
+.box_ul {
+    border-radius: 30px;
+    border: 2.35px solid rgba(218, 218, 218, 0.07);
+    width: 270px;
+    height: auto;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.bttn_text {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 163%;
+    color: rgba(255, 255, 255, 1);
+}
+
+.section_text {
+    font-weight: 400;
+    font-size: 20.13px;
+    line-height: 163%;
+    color: rgba(217, 217, 217, 1);
+}
+
+.price_bttn {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.price_text {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 163%;
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.price_litr {
+    display: flex;
+    align-items: end;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 20.13px;
+    line-height: 163%;
+    color: rgba(217, 217, 217, 1);
+}
+
+.bttn_btn {
+    font-weight: 639;
+    font-size: 17.3px;
+    line-height: 146%;
+    color: rgba(255, 255, 255, 1);
+    background: linear-gradient(265.23deg, #237249 6.79%, #35C66B 97.2%);
+    border: none;
+    border-radius: 59.72px;
+    padding: 14px 38px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+
+
+.bttn_btn:hover {
+    background: black;
+    color: white;        
+}
+
+
+
+.img{
+    width: auto;
+    height: 200px;
 }
