@@ -238,6 +238,7 @@ body {
 .ul:hover,
 .ul_eror:hover {
     transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
 }
 
 .ul_eror {
@@ -399,10 +400,12 @@ body {
 
 /* NEW_QISMI */
 
-.box_bttn{
+.box_bttn {
     display: flex;
-   gap: 54px;
-   justify-content: center;
+    gap: 54px;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .coff_one {
@@ -457,6 +460,12 @@ body {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    transition: box-shadow 0.3s ease;
+}
+
+.box_ul:hover {
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+    /* Bu yerda shadow chiqadi */
 }
 
 .bttn_text {
@@ -516,12 +525,12 @@ body {
 
 .bttn_btn:hover {
     background: black;
-    color: white;        
+    color: white;
 }
 
 
 
-.img{
+.img {
     width: auto;
     height: 200px;
 }
